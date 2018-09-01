@@ -1,0 +1,3 @@
+To use with MDAT:
+- Make libmdat.a and suds and place in current directory.
+- Alter mdat and suds directories in Makefile.

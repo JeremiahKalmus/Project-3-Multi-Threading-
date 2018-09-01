@@ -1,0 +1,526 @@
+***** Program Trace Start *****
+TRACE: 2 threads using random scheduler with seed 811490758
+THREAD: 0
+MESSAGE: Invoked scheduler at location 14
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |14   |             |running      |                       |
+|1    |1            |0    |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 14
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |14   |             |ready        |                       |
+|1    |1            |14   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 15
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |15   |             |running      |                       |
+|1    |1            |14   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 15
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |15   |             |ready        |                       |
+|1    |1            |15   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 16
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |15   |             |ready        |                       |
+|1    |1            |16   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 16
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |16   |             |running      |                       |
+|1    |1            |16   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 17
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |16   |             |ready        |                       |
+|1    |1            |17   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 18
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |16   |             |ready        |                       |
+|1    |1            |18   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 17
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |17   |             |running      |                       |
+|1    |1            |18   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 19
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |17   |             |ready        |                       |
+|1    |1            |19   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 18
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |18   |             |running      |                       |
+|1    |1            |19   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 20
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |18   |             |ready        |                       |
+|1    |1            |20   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 19
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |19   |             |running      |                       |
+|1    |1            |20   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 22
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |running      |                       |
+|1    |1            |20   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 21
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |ready        |                       |
+|1    |1            |21   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 24
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |ready        |                       |
+|1    |1            |24   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 25
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |ready        |                       |
+|1    |1            |25   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 26
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |ready        |                       |
+|1    |1            |26   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 27
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |22   |             |ready        |                       |
+|1    |1            |27   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 23
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |23   |             |running      |                       |
+|1    |1            |27   |             |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Acquired lock fork 1
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |23   |             |ready        |                       |
+|1    |1            |27   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Acquired lock fork 0
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |23   |             |ready        |                       |
+|1    |1            |27   |             |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |held by 1    |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+SECTION: Eating
+SECTION: DoneEating
+MESSAGE: Invoked scheduler at location 28
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |23   |             |ready        |                       |
+|1    |1            |28   |DoneEating   |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |held by 1    |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Releasing lock fork 0
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |23   |             |ready        |                       |
+|1    |1            |28   |DoneEating   |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 24
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |24   |             |running      |                       |
+|1    |1            |28   |DoneEating   |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Releasing lock fork 1
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |24   |             |ready        |                       |
+|1    |1            |28   |DoneEating   |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+SECTION: Thinking
+SECTION: DoneThinking
+MESSAGE: Invoked scheduler at location 29
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |24   |             |ready        |                       |
+|1    |1            |29   |DoneThinking |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 25
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |25   |             |running      |                       |
+|1    |1            |29   |DoneThinking |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 26
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |26   |             |running      |                       |
+|1    |1            |29   |DoneThinking |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 30
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |26   |             |ready        |                       |
+|1    |1            |30   |DoneThinking |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 26
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |26   |             |ready        |                       |
+|1    |1            |26   |DoneThinking |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Invoked scheduler at location 27
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |running      |                       |
+|1    |1            |26   |DoneThinking |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Invoked scheduler at location 27
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |ready        |                       |
+|1    |1            |27   |DoneThinking |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |unlocked     |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Acquired lock fork 1
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |ready        |                       |
+|1    |1            |27   |DoneThinking |running      |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |unlocked     |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Acquired lock fork 0
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |running      |                       |
+|1    |1            |27   |DoneThinking |ready        |                       |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |held by 0    |                                     |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 1
+MESSAGE: Waiting for lock fork 0
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |ready        |                       |
+|1    |1            |27   |DoneThinking |waiting-lock |fork 0                 |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |held by 0    |1                                    |
+|fork 1                   |held by 1    |                                     |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+THREAD: 0
+MESSAGE: Waiting for lock fork 1
+*******************************************************************************
+|ID   |PROPERTY     |LOC  |SECTION      |STATUS       |WAITING ON             |
+|0    |0            |27   |             |waiting-lock |fork 1                 |
+|1    |1            |27   |DoneThinking |waiting-lock |fork 0                 |
+-------------------------------------------------------------------------------
+|LOCK NAME                |STATUS       |WAITING THREADS                      |
+|fork 0                   |held by 0    |1                                    |
+|fork 1                   |held by 1    |0                                    |
+|thread count             |unlocked     |                                     |
+-------------------------------------------------------------------------------
+|SEMAPHORE NAME           |VALUE        |WAITING THREADS                      |
+*******************************************************************************
+ERROR! VIOLATION: No ready threads to schedule - possible DEADLOCK
+***** Program Trace End *****
